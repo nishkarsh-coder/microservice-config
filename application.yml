@@ -1,6 +1,8 @@
 spring:
   application:
     name: USER-SERVICE
+server:
+  port: 9041
 eureka:
  instance:
    prefer-ip-address: true
